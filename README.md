@@ -230,17 +230,6 @@ Evaluated at K=10 using leave-one-out split on 120 users:
 
 ---
 
-## Resume-Ready Highlights
-
-- Designed and implemented a **four-model recommendation engine** from scratch — Item-Based CF, User-Based KNN, SVD Matrix Factorization and a weighted Hybrid — without using any recommendation-specific libraries
-- Built a **Hybrid recommender** blending collaborative and latent-factor signals using normalised score fusion, mirroring the approach used in production at Netflix and Spotify
-- Evaluated all models using **information-retrieval metrics** (Precision@K, Recall@K, NDCG@K, Hit Rate@K) with proper **leave-one-out splitting** — demonstrating awareness of correct time-respecting evaluation methodology
-- Implemented **mean-centred cosine similarity** for User-Based CF to correct for individual rating biases (e.g. users who always rate 5/5)
-- Built a **3-tab Streamlit dashboard** supporting movie-to-movie recommendations, personalised user recommendations across 4 switchable models and an interactive dataset explorer with charts
-- Handled **77% sparse matrix** efficiently using SciPy CSR format and Truncated SVD with 30 latent components capturing 63% of variance.
-
----
-
 ## License
 
 This project is open-source under the MIT License.
