@@ -1,4 +1,4 @@
-# Movie Recommendation System
+# Movie Recommendation System 
 
 > A production-ready recommendation engine implementing four distinct algorithms — Item-Based CF, User-Based KNN, SVD Matrix Factorization and a Hybrid model — evaluated with Precision@K, Recall@K, NDCG@K and Hit Rate. Ships with a full Streamlit dashboard featuring movie-to-movie similarity, personalised user recommendations and a dataset explorer.
 
