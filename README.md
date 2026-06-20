@@ -11,7 +11,7 @@
 
 ## Problem Statement
 
-Recommendation systems are the core engine behind Netflix, Amazon, Spotify and YouTube. This project builds a full recommendation pipeline from scratch — covering the three canonical approaches (content-based, collaborative filtering, matrix factorization) plus a hybrid combination  — and evaluates all of them with industry-standard information-retrieval metrics.
+Recommendation systems are the core engine behind Netflix, Amazon, Spotify and YouTube. This project builds a full recommendation pipeline from scratch — covering the three canonical approaches (content-based, collaborative filtering, matrix factorization) plus a hybrid combination — and evaluates all of them with industry-standard information-retrieval metrics.
 
 ---
 
