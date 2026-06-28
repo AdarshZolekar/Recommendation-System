@@ -17,7 +17,7 @@ Recommendation systems are the core engine behind Netflix, Amazon, Spotify and Y
 
 ## Dataset Used
 
-**Default:** A synthetic MovieLens-style  dataset (`data/`) with 100 movies across 16 genres, 120 users and ~2,700 ratings (77% sparse).
+**Default:** A synthetic MovieLens-style dataset (`data/`) with 100 movies across 16 genres, 120 users and ~2,700 ratings (77% sparse).
 
 **Drop-in replacement:** Download the real [MovieLens 100K dataset](https://grouplens.org/datasets/movielens/100k/) — rename `u.data` columns to `userId, movieId, rating` and `u.item` to the movies format, then point `RATINGS_PATH` / `MOVIES_PATH` in `main.py` at the new files. No other changes required.
 
